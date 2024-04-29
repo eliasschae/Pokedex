@@ -1,0 +1,511 @@
+body {
+    margin: 0;
+    position: relative;
+    background: linear-gradient(to bottom right, #2b4b70 0%, #0d0f19 50%, #000000 100%);
+    font-family: "Orbitron", sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.81);
+    height: 150px;
+    box-shadow: 0px 3px 4px 2px rgba(4, 0, 51, 0.522);
+}
+
+.fire {
+    max-width: 1000px;
+    height: 200px;
+    margin-left: 450px;
+    background-position: center center;
+    background-size: 1000px 200px;
+    border-radius: 10px;
+    font-family: 'Akronim';
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fire:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.Blazing {
+    font-family: "Orbitron", sans-serif;
+    display: inline-block;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.741);
+    font-size: 100px;
+    line-height: 50px;
+    min-width: 50px;
+    outline: none;
+    vertical-align: middle;
+    text-shadow: 0 3px 20px rgb(0, 76, 255), 0 0 20px rgb(11, 15, 195), 0 0 10px rgb(0, 89, 255), 4px -5px 6px rgb(25, 0, 255), -4px -10px 10px rgb(76, 0, 255), 0 -10px 30px rgb(18, 54, 214);
+    animation: 5s Blazing infinite alternate linear;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 75px;
+}
+
+@keyframes Blazing {
+    0% {
+        text-shadow: 0 3px 20px rgb(0, 153, 255), 0 0 20px rgb(0, 76, 255),
+            0 0 10px rgb(0, 242, 255),
+            0 0 0 rgb(0, 255, 238),
+            0 0 5px rgb(13, 0, 255),
+            -2px -5px 5px rgb(34, 0, 255),
+            4px -10px 10px rgb(111, 0, 255);
+    }
+
+    25% {
+        text-shadow: 0 3px 20px rgb(0, 42, 255), 0 0 30px rgb(34, 0, 255),
+            0 0 20px rgb(0, 30, 255),
+            0 0 5px rgb(0, 179, 255),
+            -2px -5px 5px rgb(0, 162, 255),
+            3px -10px 10px rgb(0, 140, 255),
+            -4px -15px 20px rgb(85, 0, 255);
+    }
+
+    50% {
+        text-shadow: 0 3px 20px rgb(0, 89, 255), 0 0 20px rgb(0, 64, 255),
+            0 -5px 10px rgb(0, 208, 255),
+            -2px -5px 5px rgb(0, 200, 255),
+            3px -10px 10px rgb(0, 204, 255),
+            -4px -15px 20px rgb(0, 102, 255),
+            2px -20px 30px rgba(68, 0, 255, 0.5);
+    }
+
+    75% {
+        text-shadow: 0 3px 20px rgb(111, 0, 255), 0 0 20px rgb(0, 255, 251),
+            0 -5px 10px rgb(0, 30, 255),
+            3px -5px 5px rgb(30, 0, 255),
+            -4px -10px 10px rgb(0, 170, 255),
+            2px -20px 30px rgba(0, 42, 255, 0.5),
+            0px -25px 40px rgba(0, 47, 255, 0)
+    }
+
+    100% {
+        text-shadow: 0 3px 20px rgb(13, 0, 255rgb(153, 0, 255)0 0 20px rgb(0, 64, 255)),
+            0 0 10px rgb(0, 153, 255),
+            0 0 0 rgb(0, 94, 255),
+            0 0 5px rgb(102, 0, 255),
+            -2px -5px 5px rgb(0, 255, 229),
+            4px -10px 10px rgb(0, 242, 255);
+    }
+}
+
+.webdesigntuts-workshop {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -140px;
+    margin-right: 100px;
+}
+
+.webdesigntuts-workshop input {
+    background: #222;
+    background: linear-gradient(#28356b, #000);
+    border: 1px solid #444;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 2px 0 #000;
+    color: #888;
+    display: block;
+    float: left;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    text-shadow: 0 -1px 0 #000;
+    width: 200px;
+}
+
+.ie .webdesigntuts-workshop input {
+    line-height: 40px;
+}
+
+.webdesigntuts-workshop input::-webkit-input-placeholder {
+    color: #888;
+}
+
+.webdesigntuts-workshop input:-moz-placeholder {
+    color: #888;
+}
+
+.webdesigntuts-workshop input:focus {
+    animation: glow 800ms ease-out infinite alternate;
+    background: #222929;
+    background: linear-gradient(#28356b, #000);
+    border-color: rgb(0, 229, 255);
+    box-shadow: 0 0 5px rgba(0, 51, 255, 0.2), inset 0 0 5px rgba(47, 0, 255, 0.1), 0 2px 0 #000;
+    color: #efe;
+    outline: none;
+}
+
+.webdesigntuts-workshop input:focus::-webkit-input-placeholder {
+    color: #efe;
+}
+
+.webdesigntuts-workshop input:focus:-moz-placeholder {
+    color: #efe;
+}
+
+.webdesigntuts-workshop button {
+    background: #222;
+    background: linear-gradient(#28356b, #000);
+    box-sizing: border-box;
+    border: 1px solid #444;
+    border-left-color: #000;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 2px 0 #000;
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-shadow: 0 -1px 0 #000;
+    width: 80px;
+    cursor: pointer;
+}
+
+.webdesigntuts-workshop button:hover,
+.webdesigntuts-workshop button:focus {
+    background: #292929;
+    background: linear-gradient(#28356b, #000);
+    color: rgb(66, 231, 253);
+    outline: none;
+}
+
+.webdesigntuts-workshop button:active {
+    background: #292929;
+    background: linear-gradient(#393939, #292929);
+    box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+    top: 1px;
+}
+
+@keyframes glow {
+    0% {
+        border-color: rgb(85, 244, 255);
+        box-shadow: 0 0 5px rgba(91, 36, 255, 0.2), inset 0 0 5px rgba(0, 162, 255, 0.1), 0 2px 0 #000;
+    }
+
+    100% {
+        border-color: rgb(102, 255, 255);
+        box-shadow: 0 0 20px rgba(47, 179, 255, 0.6), inset 0 0 10px rgba(37, 73, 255, 0.4), 0 2px 0 #000;
+    }
+}
+
+.Content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.NameIDstyle {
+    width: 220px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -8px;
+}
+
+.nextpokemonbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.morebutt {
+    cursor: pointer;
+    height: 50px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #28356b;
+    color: white;
+}
+
+.morebutt:hover {
+    background-color: #384371;
+    color: rgb(0, 217, 255);
+}
+
+.pokemonkard {
+    border: 3px solid white;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin: 20px;
+    height: 180px;
+    display: flex;
+}
+
+.Imgtypestyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Imgtypestyle img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.pokemonkard:hover {
+    cursor: pointer;
+}
+
+.grassType {
+    border-color: rgb(0, 205, 0);
+}
+
+.fireType {
+    border-color: rgb(255, 0, 0);
+}
+
+.waterType {
+    border-color: rgb(0, 106, 255);
+}
+
+.bugType {
+    border-color: rgb(135, 193, 138);
+}
+
+.normalType {
+    border-color: rgb(255, 255, 255);
+}
+
+.electricType {
+    border-color: rgb(242, 255, 0);
+}
+
+.poisonType {
+    border-color: rgb(255, 0, 157);
+}
+
+.groundType {
+    border-color: rgb(85, 55, 40);
+}
+
+.fairyType {
+    border-color: rgb(255, 139, 184);
+}
+
+.fightingType {
+    border-color: rgb(255, 137, 74);
+}
+
+.psychicType {
+    border-color: rgb(137, 72, 178);
+}
+
+.ghostType {
+    border-color: rgb(77, 0, 125);
+}
+
+.iceType {
+    border-color: rgb(129, 236, 255);
+}
+
+.rockType {
+    border-color: rgb(88, 88, 88);
+}
+
+.dragonType {
+    border-color: rgb(255, 111, 0);
+}
+
+.darkType {
+    border-color: rgb(40, 40, 40);
+}
+
+.steelType {
+    border-color: rgb(82, 82, 82);
+}
+
+.pokemonkard {
+    transition: transform 0.3s ease-in-out;
+}
+
+.pokemonkard:hover {
+    transform: scale(1.1);
+}
+
+.d-none {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #5877ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #002783;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #00355a;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 78, 78, 0.66);
+    z-index: 1000;
+    overflow: auto;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to bottom right, #2b4b70 0%, #0d0f19 50%, #000000 100%);
+    padding: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 300px;
+}
+
+.pokemonkard {
+    position: relative;
+}
+
+.click-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.cardds1 {
+    background-color: white;
+    border-radius: 40px 40px 20px 20px;
+    margin-top: -34px;
+    min-height: 100px;
+    width: 500px;
+    margin-left: -200px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#pokeImage img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: -20px;
+    margin-left: 140px;
+}
+
+#pokeImage {
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+}
+
+#pokeName {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+#pokeNumber {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+#pokeType {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.cardds1 h4 {
+    margin: 10px 0;
+}
+
+.cardds1 p {
+    margin: 5px 0;
+}
+
+.heightdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.weightdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.abilidiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.sectionBase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.closeoverlay {
+    width: 50px;
+}
+
+.buttonclose {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 550px;
+}
+
+.closeoverlay:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}

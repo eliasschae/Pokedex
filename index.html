@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/ball (1).png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="handy.css">
+    <script src="script.js"></script>
+    <script src="html.js"></script>
+    <title>Pokedex</title>
+</head>
+
+<body onload="loadPokemon()">
+    <header>
+        <div class="dark fire">
+            <h1 class="Blazing">Pokédex</h1>
+        </div>
+        <section class="webdesigntuts-workshop">
+            <form id="searchForm" action="" method="">
+                <input class="searchInput" type="search" placeholder="What are you looking for?">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </header>
+
+    <div class="Content" id="Content"></div>
+
+    <div class="contentinfo">
+        <p class="Idpoke"></p>
+        <h3 class="namePoke"></h3>
+        <div class="imgPoke"></div>
+    </div>
+
+    <div id="overlay" class="overlay">
+        <div class="overlay-content">
+            <div id="pokeImage"></div>
+            <div id="pokeName"></div>
+            <div id="pokeNumber"></div>
+            <div id="pokeType"></div>
+            <div class="cardds1"></div>
+        </div>
+        <div class="buttonclose">
+            <img class="closeoverlay" src="img/cross.png">
+        </div>
+    </div>
+
+    <div class="nextpokemonbutton">
+        <button class="morebutt">MEHR LADEN</button>
+    </div>
+    <br>
+</body>
+
+</html>

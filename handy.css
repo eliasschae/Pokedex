@@ -1,0 +1,229 @@
+@media (max-width: 1669px) {
+    .fire {
+        margin-left: 330px;
+    }
+}
+
+@media (max-width: 1286.36px) {
+    .webdesigntuts-workshop {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: -30px;
+        justify-content: center;
+        margin-left: 110px;
+    }
+
+    .Content {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 640px) {
+    .buttonclose {
+        margin-top: 100px;
+        margin-left: 0;
+    }
+    .overlay-content {
+        padding: 150px;
+    }
+
+    .cardds1 {
+        min-height: 100px;
+        width: 400px;
+        margin-left: -150px;
+        height: 375px;
+    }
+
+    #pokeImage img {
+        max-width: 230px;
+        max-height: 230px;
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    #pokeImage {
+        margin-top: -90px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .abilidiv {
+        margin-left: 220px;
+    }
+
+    .heightdiv {
+        margin-right: 220px;
+    }
+
+    .sectionBase {
+        margin-top: -10px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 540px) {
+    .buttonclose {
+        margin-top: 180px;
+    }
+
+    .overlay-content {
+        padding: 100px;
+        height: 263px;
+    }
+
+    .cardds1 {
+        width: 300px;
+        margin-left: -100px;
+        height: 257px;
+    }
+
+    #pokeImage {
+        margin-top: -30px;
+    }
+
+    #pokeImage img {
+        max-width: 170px;
+    }
+
+    .abilidiv {
+        margin-left: 150px;
+        margin-top: -68px;
+    }
+
+    .weightdiv {
+        margin-right: 20px;
+        margin-top: -68px;
+    }
+
+    .cardds1 {
+        font-size: 15px;
+    }
+ 
+    #baseStatsTitle {
+        margin-right: 190px;
+    }
+
+    #hpStat {
+        margin-right: 150px;
+    }
+
+    #attackStat {
+        margin-right: 150px;
+    }
+
+    #defenseStat {
+        margin-left: 150px;
+    }
+
+    #specialAttackStat {
+        margin-top: -77px;
+        margin-left: 100px;
+    }
+
+    #specialDefenseStat {
+        margin-left: 110px;
+    }
+
+    #speedStat {
+        margin-right: 150px;
+    }
+
+    .sectionBase {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .Blazing {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 499px) {
+    .webdesigntuts-workshop button {
+        border-radius: 5px 5px 5px 5px;
+        margin-left: 60px;
+    }
+
+    .Content {
+        margin-top: 110px;
+    }
+
+    .webdesigntuts-workshop input {
+        border-radius: 5px 5px 5px 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pokemonkard {
+        height: 300px;
+        display: block;
+    }
+
+    .Imgtypestyle {
+        align-items: center;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .Blazing {
+        font-size: 60px;
+    }
+}
+
+@media (max-height: 896px) {
+    .buttonclose {
+        margin-top: 150px;
+    }
+}
+
+@media (max-height: 844px) {
+    .buttonclose {
+        margin-top: 130px;
+    }
+}
+
+@media (max-height: 729.60px) {
+    .cardds1 {
+        height: 435px;
+    }
+    
+    .buttonclose {
+        margin-top: 20px;
+        margin-left: 570px;
+    }
+
+    @media (max-width: 640px) {
+        .cardds1 {
+            height: 370px;
+        }
+
+        .buttonclose {
+            margin-top: 10px;
+            margin-left: 0;
+        }
+    }
+
+    @media (max-width: 540px) {
+        .cardds1 {
+            height: 270px;
+        }
+
+        .buttonclose {
+            margin-top: 70px;
+            margin-left: 0;
+        }
+    }
+
+    .sectionBase {
+        margin-top: -20px;
+    }
+}
+
+@media (max-height: 667px) {
+    .buttonclose {
+        margin-top: 40px;
+    }
+}
